@@ -1,10 +1,45 @@
 body{
     padding:0px;
     margin: 0px;
+    background-color: orange;
 }
 
 .one{
     column-count: 2;
-    padding: 20px;
+    margin:10px;
 }
+
+.pic{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.middle{
+    padding: 10px 0px;
+    padding-left: 30px;
+}
+
+.last{
+    display: flex;
+    padding: 10px 40px 5px 20px;
+    border: 2px solid rgb(255, 119, 0);
+    border-radius: 20px;
+    margin:  30px 50px;
+    background-color: white;
+}
+
+.content{
+    padding-left: 30px;
+}
+
+p{
+    text-align: justify;
+}
+
 
